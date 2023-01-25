@@ -123,3 +123,9 @@ button {
     color: #A30D17;
     text-decoration: none;
 }
+
+button:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: rgba(179, 25, 25, 0.945);
+}
