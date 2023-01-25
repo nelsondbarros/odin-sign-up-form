@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&family=Racing+Sans+One&family=Roboto&display=swap');
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.logo-bg {
+    display: flex;
+    position: absolute;
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+    top: 35%;
+}
+
+.logo-bg:not(img h2){
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo-bg > img, .logo-bg > h2 {
+    color: #A30D17;
+}
+
+
+
+.logo-bg > h2 {
+    font-family: 'Racing Sans One', cursive;
+}
+
+.logo-bg > img {
+    filter: invert(15%) sepia(45%) saturate(7079%) hue-rotate(347deg) brightness(73%) contrast(102%);
+}
+
+.copyright {
+    display: flex;
+    position: absolute;
+    top: 96%;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+}
+
+p {
+    font-size: 8px;
+    color: white;
+    /* left: 4%; */
+}
+
+p>a {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+#form-area {
+    background-color : #FAF9F6  !important;
+    display: block;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-right: 0;
+}
+
+#form-area > h2 {
+    font-size: 18px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 700px;
+    position: relative;
+    left: 30px;
+}
+
+.form {
+    background-color: white !important;
+    display: grid;
+    grid-template-columns: auto auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-bottom: 10px;
+    row-gap: 1rem;
+    align-items: center;
+    padding-top: 10px;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+button {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #E04229;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.footer {
+    color: black;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.login > a{
+    color: #A30D17;
+    text-decoration: none;
+}
